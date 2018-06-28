@@ -1,0 +1,59 @@
+.Container {
+    height: inherit;
+    min-height: 95vh;
+}
+
+.CardContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+}
+
+.Card {
+    flex-basis: 24%;
+    padding-right: 16px;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: top;
+    margin: 4px;
+}
+
+.CardContentContainer {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.CardContent {
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 4px;
+}
+
+.CardContentRight {
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.Tooltip {
+    padding: 4px;
+}
+
+.Dialog {
+    width: 800px !important;
+}
+

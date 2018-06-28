@@ -1,0 +1,42 @@
+{
+  "name": "awsMonitorUI",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "@blueprintjs/datetime": "^2.0.3",
+    "@blueprintjs/table": "^2.1.1",
+    "axios": "^0.18.0",
+    "d3-scale": "^2.0.0",
+    "d3-time": "^1.0.8",
+    "moment": "^2.22.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts-ts": "2.16.0",
+    "react-transition-group": "^2.3.1",
+    "recharts": "^1.0.0-beta.10"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/d3-scale": "^2.0.1",
+    "@types/d3-time": "^1.0.8",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^10.1.1",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-transition-group": "^1.1.4",
+    "@types/recharts": "^1.0.20",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  }
+}
